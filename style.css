@@ -47,10 +47,11 @@ body {
   text-align: center;
 padding-top:100px;
 }
-#section-3 span {
+#credit {
   font-size: 15px;
   color: #ACCFCB;
-  margin-left: 75%;
+  text-align: right;
+  padding-right: 3%;
 }
 
 .cr,.editor,.row {
@@ -401,7 +402,7 @@ hr{
 #section-3 span {
   font-size: 15px;
   color: #ACCFCB;
-  margin-left: 10%;
+  text-align: right;
 }
 
 .title{
