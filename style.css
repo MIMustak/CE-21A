@@ -391,6 +391,13 @@ hr{
     justify-content: center;
 }
 
+
+
+#motto {
+  padding: 0;
+  font-size: 20px;
+}
+
 .card{
   width: 300px;
   height: 500px;
