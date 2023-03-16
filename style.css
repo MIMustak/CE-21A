@@ -45,7 +45,7 @@ body {
 }
 #motto {
   text-align: center;
-padding-top: 13%;
+padding-top:100px;
 }
 #section-3 span {
   font-size: 15px;
@@ -394,6 +394,10 @@ hr{
 .card{
   width: 300px;
   height: 500px;
+}
+
+.console-container {
+  font-size: 2.5em;
 }
 
 * {
