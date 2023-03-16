@@ -24,7 +24,6 @@ body {
   width: 80%;
   height: 200px;
   background-color: #7ac2de;
-  margin-bottom:;
   border-radius: 15% 0;
   margin-left: auto;
   margin-right: auto;
@@ -43,6 +42,15 @@ body {
   margin:  5% 0;
   background-color: #052938;
   border-radius: 5%;
+}
+#motto {
+  text-align: center;
+padding-top: 13%;
+}
+#section-3 span {
+  font-size: 15px;
+  color: #ACCFCB;
+  margin-left: 75%;
 }
 
 .cr,.editor,.row {
