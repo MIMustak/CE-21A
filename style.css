@@ -394,8 +394,14 @@ hr{
 
 
 #motto {
-  padding: 0;
+  padding: 35px;
   font-size: 20px;
+}
+
+#section-3 span {
+  font-size: 15px;
+  color: #ACCFCB;
+  margin-left: 10%;
 }
 
 .container{
