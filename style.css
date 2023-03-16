@@ -1,0 +1,495 @@
+body {
+    background-color: #131f2e;
+    margin: 0;
+}
+
+#top-section {
+    background-image:url('images/ce.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    background-position: absolute;
+}
+
+#logo {
+    width: 220px;
+    height: 220px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#section-2{
+  width: 80%;
+  height: 200px;
+  background-color: #7ac2de;
+  margin-bottom:;
+  border-radius: 15% 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.word {
+  margin: auto;
+  color: white;
+  font: 700 normal 2.5em 'tahoma';
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+}
+
+#section-3 {
+  width: 100%;
+  height: 300px;
+  margin:  5% 0;
+  background-color: #052938;
+  border-radius: 5%;
+}
+
+.cr,.editor,.row {
+    display: flex;
+    justify-content: center;
+}
+
+
+.card {
+    width: 400px;
+    height: 450px;
+    background-color: #212d3c;
+    border-radius: 10px;
+    color: rgb(153, 164, 164);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    margin-left: 30px;
+    position: sticky;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(240, 229, 229, 0.2), 6px 6px 20px 10px rgba(240, 229, 229, 0.19);
+}
+
+h1{
+    color:aliceblue ;
+}
+
+h2 {
+    color: aliceblue;
+}
+.card-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    
+
+}
+
+.icon {
+    margin-right: 10px;
+    font-size: 20px;
+    color: slategray;
+}
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+  background: #111;
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+ 
+  font-family:Khula;
+  font-size:4em;
+  text-align:center;
+  height:400px;
+  width:100%;
+  display:block;
+  position:sticky;
+  color:white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+  margin-top: 20px;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+
+
+.container {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.title-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+  }
+  
+  .title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+  }
+  
+  .title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+  }
+  
+  .title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #E4A9A8;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  
+  /* Here are just some visual styles. 🖌 */
+  
+  .container {
+    display: grid;
+    place-items: center;  
+    text-align: center;
+    height: 20vh;
+  }
+  
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 4.1vw;
+    text-transform: uppercase;
+  }
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+ 
+  h1 {
+    color: #d71717;
+    font-family: tahoma;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 1.5;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  h1 span {
+    font-size: 40px;
+    margin-left: 10%;
+
+  }
+  
+  .message {
+    background-color: yellow;
+    color: #333;
+    display: block;
+    font-weight: 900;
+    overflow: hidden;
+    position: absolute;
+    padding-left: 0.5rem;
+    top: 0.2rem;
+    left: 270px;
+    animation: openclose 6s ease-in-out infinite;
+  }
+  
+  .word1, .word2, .word3 {
+    font-family: tahoma;
+    text-align: center;
+  }
+  
+  @keyframes openclose {
+    0% {
+      top: 0.2rem;
+      width: 0;
+    }
+    5% {
+      width: 0;
+    }
+    15% {
+      width: 280px;
+    }
+    30% {
+      top: 0.2rem;
+      width: 230px;
+    }
+    33% {
+      top: 0.2rem;
+      width: 0;
+    }
+    35% {
+      top: 0.2rem;
+      width: 0;
+    }
+    38% {
+      top: -4.5rem;
+      
+    }
+    48% {
+      top: -4.5rem;
+      width: 400px;
+    }
+    62% {
+      top: -4.5rem;
+      width: 250px;
+    }
+    66% {
+      top: -4.5rem;
+      width: 0;
+      text-indent: 0;
+    }
+    71% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    86% {
+      top: -9rem;
+      width: 400px;
+    }
+    95% {
+      top: -9rem;
+      width: 300px;
+    }
+    98% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    100% {
+      top: 0;
+      width: 0;
+      text-indent: 0;
+    }
+  }
+
+
+
+
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+
+  svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10%  ;
+    margin-top: 5%;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+
+p{
+  text-align: center;
+  font-size:2rem;
+  color:#cccccc;
+}
+
+.grow{
+  width:100%;
+}
+.hr1{
+  margin-left:0;
+}
+.hr2{
+  margin-right:0;
+}
+hr{
+  width: 80%;
+  margin-top: 20px;
+  padding: 2px 0;
+  border: 3px orange;
+  background-color: rgb(250, 150, 0);
+  letter-spacing: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .cr,.editor,.row {
+    display: grid;
+    justify-content: center;
+}
+
+.card{
+  width: 300px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #d71717;
+  font-family: tahoma;
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1.5;
+  text-transform: lowercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+h1 span {
+  font-size: 40px;
+  margin-left: 10px;
+text-transform: uppercase;
+}
+
+.message {
+  background-color: yellow;
+  color: #333;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  position: absolute;
+  top: 0.2rem;
+  left: 100px;
+  animation: openclose 6s ease-in-out infinite;
+}
+
+.word1, .word2, .word3 {
+  font-family: tahoma;
+  text-align: center;
+  margin-left: 5px;
+}
+
+@keyframes openclose {
+  0% {
+    top: 0.2rem;
+    width: 0;
+  }
+  5% {
+    width: 0;
+  }
+  15% {
+    width: 280px;
+  }
+  30% {
+    top: 0.2rem;
+    width: 180px;
+  }
+  33% {
+    top: 0.2rem;
+    width: 0;
+  }
+  35% {
+    top: 0.2rem;
+    width: 0;
+  }
+  38% {
+    top: -4.5rem;
+    
+  }
+  48% {
+    top: -4.5rem;
+    width: 280px;
+  }
+  62% {
+    top: -4.5rem;
+    width: 180px;
+  }
+  66% {
+    top: -4.5rem;
+    width: 0;
+    text-indent: 0;
+  }
+  71% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  86% {
+    top: -9rem;
+    width: 280px;
+  }
+  95% {
+    top: -9rem;
+    width: 280px;
+  }
+  98% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  100% {
+    top: 0;
+    width: 0;
+    text-indent: 0;
+  }
+}
+
+}
