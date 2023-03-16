@@ -398,6 +398,10 @@ hr{
   font-size: 20px;
 }
 
+.container{
+  font-size: 5.5vu;
+}
+
 .card{
   width: 300px;
   height: 500px;
