@@ -407,7 +407,8 @@ hr{
 }
 
 .title{
-  font-size: 5.5vu;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 .card{
