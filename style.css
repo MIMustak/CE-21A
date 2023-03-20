@@ -29,6 +29,13 @@ body {
   margin-right: auto;
 }
 
+
+#everybody{
+  height:600px;
+  overflow:scroll;
+  overflow-x:hidden;
+}
+
 .word {
   margin: auto;
   color: white;
