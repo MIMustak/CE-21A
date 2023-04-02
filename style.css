@@ -76,7 +76,7 @@ padding-top:100px;
   font-size: 15px;
   color: #ACCFCB;
   text-align: right;
-  padding-right: 0;
+  padding-right: 10px;
 }
 
 /*---------------------------------------
@@ -106,7 +106,7 @@ padding-top:100px;
 canvas{
   display:flexbox;
   width: 100%;
-  height: 100%;
+  height: 80%;
   cursor: crosshair;
 }
 .greet {
@@ -209,6 +209,18 @@ h2 {
   position:relative;
   top:-0.14em;
   left:10px;
+}
+
+/* News Feed */
+.scroll {
+    background-color:#444444;
+    font-size:20px;
+    font-family: georgia;
+    font-style:italic;
+    font-weight:bold;
+    color:rgb(226, 221, 226);
+    height: 40px;
+    padding: 10px 0 0 0;
 }
 
 /* -----------------------------
@@ -467,7 +479,7 @@ hr{
 #company {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 #company img {
   width: 100px;
@@ -483,7 +495,7 @@ a h2 {
 }
 .follow {
   display: flex;
-  justify-content: center;
+  
   margin-top: 1%;
   margin-left: 4%; 
 }
