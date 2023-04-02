@@ -76,13 +76,14 @@ padding-top:100px;
   font-size: 15px;
   color: #ACCFCB;
   text-align: right;
-  padding-right: 3%;
+  padding-right: 0;
 }
 
-/* Greetings/Wishes */
+/*---------------------------------------
+           Greetings/Wishes 
+-----------------------------------------*/
 #greetings {
   display: flex;
-
 }
 
 .moon {
@@ -106,6 +107,7 @@ canvas{
   display:flexbox;
   width: 100%;
   height: 100%;
+  cursor: crosshair;
 }
 .greet {
   text-align: center;
@@ -115,6 +117,7 @@ canvas{
   font-size: 4em;
   font-weight: 900;
    margin-top: 200px ;
+   text-transform: capitalize;
 } 
 #name {
   position:absolute;
@@ -122,12 +125,17 @@ canvas{
   margin-bottom: 50%;
 }
 
+/* -----------------------------
+           CR, Editor
+---------------------------------*/
 .cr,.editor,.row {
     display: flex;
     justify-content: center;
 }
 
-
+/* -----------------------------
+           Card
+---------------------------------*/
 .card {
     width: 400px;
     height: 500px;
@@ -159,8 +167,6 @@ h2 {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    
-
 }
 
 .icon {
@@ -170,12 +176,12 @@ h2 {
 }
 
 
-
+/* -----------------------------
+           Top Banner Text
+---------------------------------*/
 
 @import url(https://fonts.googleapis.com/css?family=Khula:700);
-body {
-  background: #111;
-}
+
 .hidden {
   opacity:0;
 }
@@ -204,7 +210,9 @@ body {
   left:10px;
 }
 
-
+/* -----------------------------
+           CR Colored Text
+---------------------------------*/
 
 .container {
   margin-bottom: 5%;
@@ -237,8 +245,7 @@ body {
     --color-1: #3D8DAE;
     --color-2: #DF8453;
     --color-3: #E4A9A8;
-  }
-  
+  } 
   @keyframes color-animation {
     0%    {color: var(--color-1)}
     32%   {color: var(--color-1)}
@@ -249,14 +256,16 @@ body {
     100%  {color: var(--color-1)}
   }
   
-  /* Here are just some visual styles. 🖌 */
+
+  /* -----------------------------
+           Editor Animated Text
+---------------------------------*/
   
   .container {
     display: grid;
     place-items: center;  
     text-align: center;
-    height: 20vh;
-    
+    height: 20vh;  
   }
   
   .title {
@@ -267,11 +276,6 @@ body {
     margin-bottom: 0;
   }
 
-
-
-  * {
-    box-sizing: border-box;
-  }
  
   h1 {
     color: #d71717;
@@ -373,18 +377,11 @@ body {
       width: 0;
       text-indent: 0;
     }
-  }
+  } @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
-
-
-
-
-
-
-
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
-
-
+/* -----------------------------
+           Section-A
+---------------------------------*/
   svg {
     display: block;
     font: 10.5em 'Montserrat';
@@ -432,7 +429,9 @@ body {
 	100% {stroke-dashoffset: -35%;}
 }
 
-
+/* -----------------------------
+           Our Family
+---------------------------------*/
 p{
   text-align: center;
   font-size:2rem;
@@ -507,6 +506,14 @@ a h2 {
   font-size: 25px;
 }
 
+/*---------------------------------------
+           Greetings/Wishes 
+-----------------------------------------*/
+.greet {
+  font-size: 3em;
+
+}
+
 #section-3 span {
   font-size: 15px;
   color: #ACCFCB;
@@ -528,9 +535,6 @@ a h2 {
   font-size: 2.5em;
 }
 
-* {
-  box-sizing: border-box;
-}
 
 h1 {
   color: #d71717;
@@ -563,75 +567,15 @@ text-transform: uppercase;
   animation: openclose 6s ease-in-out infinite;
 }
 
-.word1, .word2, .word3 {
-  font-family: tahoma;
-  text-align: center;
-  margin-left: 5px;
-}
 
-@keyframes openclose {
-  0% {
-    top: 0.2rem;
-    width: 0;
-  }
-  5% {
-    width: 0;
-  }
-  15% {
-    width: 280px;
-  }
-  30% {
-    top: 0.2rem;
-    width: 180px;
-  }
-  33% {
-    top: 0.2rem;
-    width: 0;
-  }
-  35% {
-    top: 0.2rem;
-    width: 0;
-  }
-  38% {
-    top: -4.5rem;
-    
-  }
-  48% {
-    top: -4.5rem;
-    width: 280px;
-  }
-  62% {
-    top: -4.5rem;
-    width: 180px;
-  }
-  66% {
-    top: -4.5rem;
-    width: 0;
-    text-indent: 0;
-  }
-  71% {
-    top: -9rem;
-    width: 0;
-    text-indent: 5px;
-  }
-  86% {
-    top: -9rem;
-    width: 280px;
-  }
-  95% {
-    top: -9rem;
-    width: 280px;
-  }
-  98% {
-    top: -9rem;
-    width: 0;
-    text-indent: 5px;
-  }
-  100% {
-    top: 0;
-    width: 0;
-    text-indent: 0;
-  }
-}
+
+
+
+/*--------------------------------
+              Footer 
+ ----------------------------------*/
+ .follow {
+  overflow: hidden;
+ }
 
 }
