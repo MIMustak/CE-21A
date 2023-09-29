@@ -51,6 +51,7 @@ function consoleText(words, id, colors) {
 }
 
 
+
 // Greetings/Wishes
 // helper functions
 const PI2 = Math.PI * 2
